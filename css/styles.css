@@ -486,9 +486,17 @@ img {
     padding-bottom: 20px;
 }
 
-.footer-cont {
+.contact, .footer-cont {
     display: flex;
     align-items: center;
+}
+
+.footer-container-right {
+    width: 206px;
+    margin-left: 70px;
+    margin-top: 72px;
+    margin-bottom: 100px;
+    flex-direction: column;
 }
 
 
