@@ -486,17 +486,10 @@ img {
     padding-bottom: 20px;
 }
 
-.contact, .footer-cont {
+.contact, .footer-conatiner {
     display: flex;
     align-items: center;
-}
-
-.footer-container-right {
-    width: 206px;
-    margin-left: 70px;
-    margin-top: 72px;
-    margin-bottom: 100px;
-    flex-direction: column;
+    justify-content: space-between;
 }
 
 
@@ -515,10 +508,15 @@ img {
     fill: #ffffff;
     width: 44px;
     height: 44px;
+    text-decoration: none;
 }
 
 .footer-social-media-item {
     border-radius: 50%;
+}
+
+.footer-social-media-item:not(:last-child) {
+    margin-right: 10px;
 }
 
 .footer-social-media-link:hover,
