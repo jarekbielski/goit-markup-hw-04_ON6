@@ -6,8 +6,7 @@
 
 body {
     font-family: "Roboto", "Raleway", sans-serif;
-    list-style: none;
-    text-decoration: none;
+
 }
 
 h1,
@@ -24,6 +23,8 @@ ul,
 ol {
     padding: 0;
     margin: 0;
+    list-style: none;
+    text-decoration: none;
 }
 
 p {
@@ -522,21 +523,14 @@ img {
 .what-we-do {
     display: flex;
     flex-wrap: wrap;
-    list-style: none;
-    margin-left: -30px;
-    margin-top: -30px;
-    justify-content: space-between;
+    margin: -15px;
 }
 
-
 .what-we-do-list {
-    max-width: 370px;
+    margin: 15px;
+    flex-basis: calc(100%/3 - 30px);
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-    box-sizing: border-box;
-    margin-left: 30px;
-    margin-top: 30px;
-    flex-basis: calc(100% / 3 - 30px);
+
 }
 
 .what-we-do-list:hover, .what-we-do-list:focus {
