@@ -413,7 +413,6 @@ img {
     justify-content: space-between;
     width: 206px;
     padding-top: 16px;
-    
     margin-left: 32px;
 }
 
@@ -456,6 +455,8 @@ img {
 
 .contact {
     background-color: #2f303a;
+    display: flex;
+    align-items: center;
 }
 
 .navigation-logo {
@@ -505,12 +506,23 @@ img {
     padding-bottom: 20px;
 }
 
-.contact, .footer-conatiner {
-    display: flex;
+.footer-conatiner {
+    padding-top: 60px;
+    padding-bottom: 60px;
     align-items: center;
-    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    padding-left:auto;
 }
 
+.footer-container-right {
+    margin-left: 70px;
+    padding-top: 72px;
+}
+
+.footer-left {
+    height: 60px;
+}
 
 .footer-social-media-list {
     display: flex;
@@ -532,6 +544,10 @@ img {
 
 .footer-social-media-item {
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+    padding-bottom: 30px;
 }
 
 .footer-social-media-item:not(:last-child) {
