@@ -146,10 +146,9 @@ img {
 .adress-email-footer:focus,
 .adress-email-footer:hover,
 .adress-phone-number-footer:hover,
-.adress-phone-number-footer:focus 
-.icon-email-icon:hover, 
+.adress-phone-number-footer:focus .icon-email-icon:hover,
 .icon-email-icon:focus,
-.icon-mobile-icon:hover, 
+.icon-mobile-icon:hover,
 .icon-mobile-icon:focus {
     color: var(--main-color);
     fill: var(--main-color)
@@ -395,7 +394,7 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
-    padding-bottom: 30px;
+
 }
 
 .team-list-item:not(:last-child) {
@@ -413,7 +412,9 @@ img {
     align-items: center;
     justify-content: space-between;
     width: 206px;
-    margin: 16px 32px 30px;
+    padding-top: 16px;
+    
+    margin-left: 32px;
 }
 
 .social-list-item {
