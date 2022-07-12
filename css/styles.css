@@ -450,6 +450,39 @@ img {
 
 /*---END-TEAM--- */
 
+/*---CLIENTS---*/
+.client {
+    display: flex;
+}
+
+.clients-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clients-list-link {
+    display: flex;
+    fill: #AFB1B8;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    padding: 16px 32px;
+    transition-property: fill, border, cursor;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-list-link:hover,
+.clients-list-link:focus {
+    fill: #2196F3;
+    border: 1px solid #2196F3;
+}
+
+
+/*---END-CLIENTS---*/
+
 
 /*---FOOTER--- */
 
