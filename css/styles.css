@@ -475,7 +475,9 @@ img {
 }
 
 .clients-list-link:hover,
-.clients-list-link:focus {
+.clients-list-link:focus 
+.client-icon:hover,
+.client-icon:focus {
     fill: #2196F3;
     border: 1px solid #2196F3;
 }
