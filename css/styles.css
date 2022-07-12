@@ -475,8 +475,7 @@ img {
 }
 
 .clients-list-link:hover,
-.clients-list-link:focus 
-.client-icon:hover,
+.clients-list-link:focus .client-icon:hover,
 .client-icon:focus {
     fill: #2196F3;
     border: 1px solid #2196F3;
@@ -542,16 +541,17 @@ img {
 }
 
 .footer-conatiner {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    align-items: center;
     display: flex;
-    margin: auto;
+    align-items: center;
+}
+
+.footer-left {
+    padding-top: 60px;
 }
 
 .footer-container-right {
-    margin-left: 70px;
-    padding-top: 72px;
+    width: 206px;
+    margin-left: 370px;
 }
 
 
