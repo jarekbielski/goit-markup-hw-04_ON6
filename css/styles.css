@@ -491,6 +491,8 @@ img {
 
 .contact {
     background-color: #2f303a;
+    display: flex;
+    align-items: center;
 }
 
 .navigation-logo {
@@ -540,24 +542,29 @@ img {
     padding-bottom: 20px;
 }
 
-.footer-conatiner {
+.footer-container {
     display: flex;
-    align-items: center;
 }
 
 .footer-left {
-    padding-top: 60px;
+   margin: 0px;
+   padding: 0px;
+
 }
 
 .footer-container-right {
     width: 206px;
-    margin-left: 370px;
+    margin-left: 70px;
+    padding-top: 72px;
+    
 }
 
 .footer-social-media-list {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 30px;
 }
 
 .footer-social-media-link {
