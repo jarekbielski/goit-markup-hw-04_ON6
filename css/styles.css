@@ -197,6 +197,8 @@ img {
 /* ---HERO--- */
 .hero-center-side {
     height: 600px;
+    max-width: 1600px;
+    background-repeat: no-repeat;
     background: #2F303A;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)), url("../Images/background/Img-bacground.jpg");
