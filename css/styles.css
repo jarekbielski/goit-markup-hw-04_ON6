@@ -506,7 +506,6 @@ img {
     margin-right: 93px;
     text-decoration: none;
     padding-top: 45px;
-    padding-bottom: 20px;
 }
 
 .accent-footer {
@@ -540,7 +539,7 @@ img {
     color: #ffffff;
     font-weight: 700;
     font-size: 14px;
-    padding-bottom: 20px;
+    
 }
 
 .footer-container {
@@ -566,8 +565,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 16px;
-    padding-bottom: 30px;
+    padding-top: 20px;
 }
 
 .footer-social-media-link {
@@ -586,8 +584,7 @@ img {
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    padding-top: 16px;
-    padding-bottom: 30px;
+   
 }
 
 .footer-social-media-item:not(:last-child) {
