@@ -198,6 +198,7 @@ img {
 .hero-center-side {
     height: 600px;
     max-width: 1600px;
+    margin: 0  auto;
     background-repeat: no-repeat;
     background: #2F303A;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
@@ -544,6 +545,8 @@ img {
 
 .footer-container {
     display: flex;
+    padding: 60px;
+    align-items: baseline;
 }
 
 .footer-left {
